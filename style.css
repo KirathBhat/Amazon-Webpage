@@ -1,0 +1,1080 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #E3E6E6;
+    width: 93.4%;
+}
+
+html{
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+.navBar{
+    background-color: #131921;
+    margin: -8px -87.5px -8px -8px;
+    height: 63px;
+}
+
+#logo:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#logo{
+    height: 50px;
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+
+#location{
+    height: 24px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+.loctxt{
+    color: white;
+    font-family: "Amazon Ember", sans-serif;
+    position: relative;
+    bottom: 17px;
+    left: 32px;
+}
+
+.location{
+    position: absolute;
+    top: 0px;
+    left: 132px;
+    height: 50px;
+    padding-left: 0px;
+    padding-right: 46px;
+    margin-top: 6px;
+    
+}
+
+.location:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#del{
+    font-size: 0.8em;
+    color: #b1b1b1;
+}
+
+.categ{
+    padding: 12px 4px;
+    position: relative;
+    bottom: 13px;
+    left: 160px;
+    background-color: #E3E6E6;
+    font-size: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.categ:hover{
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+.categ:active{
+    border: 3px solid rgb(205, 119, 33);
+}
+
+.search{
+    border: none;
+    position: relative;
+    bottom: 13px;
+    left: 155px;
+    padding: 12px 420px 12px 6px;
+    z-index: 2;
+}
+
+.submit{
+    position: absolute;
+    top: 12.6px;
+    right: 426px;
+    padding: 12px 4px 12px 0px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f0ad26;
+    color: #f0ad26;
+    z-index: 5;
+}
+    
+
+
+.submit:hover{
+    background-color: #db9e24;
+    color: #db9e24;
+    cursor: pointer;
+}
+
+.submit:active{
+    border: 3px solid rgb(205, 119, 33);
+}
+
+#scan{
+    position: relative;
+    bottom: 4px;
+    left: 105px;
+    height: 24px;
+    z-index: 4;
+}
+
+#scan:hover{
+    cursor: pointer;
+}
+
+#searchimg{
+    height: 35px;
+    position: absolute;
+    top: 16px;
+    right: 434px;
+    z-index: 6;
+}
+
+.searchimg:hover{
+    cursor: pointer;
+}
+
+.langCont{
+    float: right;
+    position: absolute;
+    top: 9px;
+    right: 297px;
+    padding: 14px 0px 9px 9px;
+}
+
+.langCont:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#lang{
+    height: 20px;
+    width: 35px;
+}
+
+#langg{
+    color: white;
+    background-color: #131921;
+    border: none;
+    position: relative;
+    bottom: 4px;
+    right: 3px;
+}
+
+#langg:hover{
+    cursor: pointer;
+}
+
+.login{
+    position: absolute;
+    float: right;
+    right: 154px;
+    top: 6px;
+    padding: 7px 52px 0px 0px;
+    height: 44px;
+}
+
+.login:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#user{
+    height: 40px;
+    width: 40px;
+}
+
+.usertxt{
+    color: white;
+    position: relative;
+    bottom: 29px;
+    left: 44px;
+}
+
+p{
+    color: white;
+}
+
+#carticon{
+    height: 48px;
+    width: 66px;
+}
+
+.cart{
+    position: absolute;
+    float: right;
+    right: 34px;
+    top: 5px;
+    padding: 5px 34px 0px 0px;
+    height: 46px
+}
+
+#cartAmt{
+    font-size: 1.4em;;
+    position: relative;
+    bottom: 70;
+    left: 28;
+    color: rgb(205, 119, 33)
+}
+
+.view{
+    position: relative;
+    bottom: 99px;
+    left: 59px;
+}
+
+.cart:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.txtbar{
+    display: inline-block;
+    background-color: #232F3E;
+    position: relative;
+    width: 94.1%;
+    right: 2px;
+    top: 8px;
+    padding: 0px 116px 0px 53px;
+}
+
+.txtbar li{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+}
+
+.txtbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 13px 9px;
+}
+
+#menu{
+    position: absolute;
+    top: 12px;
+    left: 106px;
+    height: 30px;
+    width: 32px;
+}
+
+.txtbar li a:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.all {
+    padding: 12px 12px 12px 34px !important;
+}
+
+#background{
+    position: absolute;
+    top: 114px;
+    left: 0px;
+    width: 1447px;
+    height: 576px;
+    z-index: -1;
+}
+
+.arrowldiv{
+    position: absolute;
+    top: 201px;
+    left: 1%;
+    width: 3%;
+    height: 71px;
+}
+
+.arrowrdiv{
+    position: absolute;
+    top: 201px;
+    right: 1%;
+    width: 3%;
+    height: 71px;
+}
+
+#arrowl{
+    position: absolute;
+    top: 116px;
+    left: 3px;
+    width: 3%;
+    height: 71px;
+    padding: 90px 22px;
+}
+
+#arrowr{
+    position: absolute;
+    top: 116px;
+    right: 3px;
+    width: 3.6%;
+    height: 71px;
+    padding: 90px 22px;
+}
+
+#arrowl:hover{
+    border: 2.5px solid rgb(42, 134, 155);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#arrowr:hover{
+    border: 2.5px solid rgb(42, 134, 155);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.prodCont1{
+    position: absolute;
+    top: 430px;
+    width: 98.6%;
+    height: 392px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prod{
+    flex-basis: 370px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    padding: 25px;    
+}
+
+.box1{
+    color: black !important;
+    font-size: 1.3em;
+}
+
+.prodimg{
+    height: 130px;
+    width: 141px;
+    cursor: pointer;
+}
+
+#product1{
+    width: 115px;
+}
+
+#product2{
+    position: relative;
+    left: 102px;
+}
+
+#product3{
+    position: relative;
+    top: 43px;
+}
+
+#product4{
+    position: relative;
+    left: 76px;
+    top: 43px;
+}
+
+.prodimgtxt{
+    position: relative;
+    top: 296px;
+    left: 72px;
+    display: inline-block;
+    z-index: 30;
+    cursor: pointer;
+}
+
+#txt1{
+    color: black !important;
+}
+
+#txt2{
+    color: black !important;
+    position: relative;
+    left: 226px;
+    bottom: 36px;
+}
+
+#txt3{
+    color: black !important;
+    position: relative;
+    top: 96px;
+    left: 5px;
+}
+
+#txt4{
+    color: black !important;
+    position: relative;
+    top: 64px;
+    left: 232px;
+}
+
+#seemore{
+    font-size: 0.8em;
+    position: relative;
+    top: 55px;
+    left: 8px;
+    color: rgb(39, 135, 173);
+    text-decoration: none;
+}
+
+#seemore:hover{
+    color: #eba00a
+}
+
+.prodimg2{
+    height: 130px;
+    width: 141px;
+    cursor: pointer;
+}
+
+#product6{
+    position: relative;
+    left: 70px;
+}
+
+#product7{
+    position: relative;
+    top: 43px;
+    width: 130px;
+}
+
+#product8{
+    position: relative;
+    left: 86px;
+    top: 42px;
+}
+
+.prodimgtxt2{
+    position: relative;
+    top: 262px;
+    left: 415px;
+    display: inline-block;
+    z-index: 30;
+    cursor: pointer;
+}
+
+#txt5{
+    color: black !important;
+    position: relative;
+    top: 2px;
+}
+
+#txt6{
+    color: black !important;
+    position: relative;
+    left: 226px;
+    bottom: 36px;
+}
+
+#txt7{
+    color: black !important;
+    position: relative;
+    top: 94px;
+    left: 5px;
+}
+
+#txt8{
+    color: black !important;
+    position: relative;
+    top: 62px;
+    left: 232px;
+}
+
+.prodimgtxt3{
+    position: relative;
+    top: 255px;
+    left: 317px;
+    display: inline-block;
+    z-index: 30;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+#txt9{
+    color: rgb(98, 98, 98) !important;
+}
+
+#txt10{
+    color: rgb(98, 98, 98) !important;
+    position: relative;
+    left: 226px;
+    bottom: 30px;
+}
+
+#txt11{
+    color: rgb(98, 98, 98) !important;
+    position: relative;
+    top: 104px;
+    left: -4px;
+}
+
+#txt12{
+    color: rgb(98, 98, 98) !important;
+    position: relative;
+    top: 79px;
+    left: 223px;
+}
+
+.prodimg3{
+    height: 130px;
+    width: 141px;
+    cursor: pointer;
+}
+
+#product9{
+    width: 115px;
+}
+
+#product10{
+    position: relative;
+    left: 102px;
+}
+
+#product11{
+    position: relative;
+    top: 43px;
+}
+
+#product12{
+    position: relative;
+    left: 76px;
+    top: 43px;
+}
+
+.prodimgtxt4{
+    position: relative;
+    top: 507px;
+    left: 753px;
+    display: inline-block;
+    z-index: 30;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+#txt13{
+    color: rgb(167, 0, 0) !important;
+}
+
+#txt14{
+    color: rgb(167, 0, 0) !important;
+    position: relative;
+    left: 226px;
+    bottom: 49px;
+}
+
+#txt15{
+    color: rgb(167, 0, 0) !important;
+    position: relative;
+    top: 77px;
+    left: 0px;
+}
+
+#txt16{
+    color: rgb(167, 0, 0) !important;
+    position: relative;
+    top: 25px;
+    left: 225px;
+}
+
+#deals{
+    font-size: 0.8em;
+    position: relative;
+    top: -147px;
+    left: -82px;
+    color: rgb(39, 135, 173);
+    text-decoration: none;
+}
+
+#deals:hover{
+    color: #eba00a
+}
+
+#txt17{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(167, 0, 0);
+    width: fit-content;
+    border: 4px solid rgb(167, 0, 0);
+    border-radius: 4px;
+    position: relative;
+    top: -193px;
+    left: -66px;
+}
+
+#txt18{
+    color: rgb(255, 255, 255) !important;
+    position: relative;
+    left: 226px;
+    bottom: 56px;
+    background-color: rgb(167, 0, 0);
+    width: fit-content;
+    border: 4px solid rgb(167, 0, 0);
+    border-radius: 4px;
+    position: relative;
+    top: -232px;
+    left: 163px;
+}
+
+#txt19{
+    color: rgb(255, 255, 255) !important;
+    position: relative;
+    top: 96px;
+    left: 5px;
+    background-color: rgb(167, 0, 0);
+    width: fit-content;
+    border: 4px solid rgb(167, 0, 0);
+    border-radius: 4px;
+    position: relative;
+    top: -97px;
+    left: -65px;
+}
+
+#txt20{
+    color: rgb(255, 250, 250) !important;
+    position: relative;
+    top: 64px;
+    left: 232px;
+    background-color: rgb(167, 0, 0);
+    width: fit-content;
+    border: 4px solid rgb(167, 0, 0);
+    border-radius: 4px;
+    position: relative;
+    top: -136px;
+    left: 162px;
+}
+
+.bg2{
+    height: 249px;
+    width: 1447px;
+    position: absolute;
+    left: 0px;
+    top: 900px;
+}
+
+.bg2:hover{
+    cursor: pointer;
+}
+
+.bg3{
+    height: 361px;
+    width: 604px;
+    position: absolute;
+    left: 50px;
+    top: 1198px;
+    box-shadow: inset 2px 2px 16px 2px rgba(0, 0, 0);
+    z-index: -1;
+}
+
+.bg3:hover{
+    cursor: pointer;
+}
+
+#prime{
+    position: relative;
+    top: 673px;
+    left: 61px;
+    font-size: 1.2em;
+}
+
+#prime2{
+    position: relative;
+    top: 657px;
+    left: 61px;
+    font-size: 0.9em;
+}
+
+#prime3{
+    position: relative;
+    top: 909px;
+    left: 61px;
+    font-size: 0.9em;
+    color: white;
+    text-decoration: none;
+}
+
+#prime3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sellCont{
+    position: absolute;
+    top: 1377px;
+    width: 732px;
+    height: 0px;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 708px;
+}
+
+.sell{
+    flex-basis: 682px;
+    height: 362px;
+    background-color: white;
+    color: black;   
+}
+
+.sell1{
+    color: black !important;
+    font-size: 1.3em;
+}
+
+#product13{
+    width: 156px;
+    position: relative;
+    left: 34px;
+    top: 14px;
+}
+
+#product14{
+    position: relative;
+    left: 77px;
+    top: 11px;
+}
+
+#product15{
+    position: relative;
+    top: 10px;
+    left: 139px;
+}
+
+.seel{
+    padding: 6px 0px 0px 30px;;
+    height: 341px;
+}
+
+.prodimgtxtsell{
+    position: absolute;
+    top: 23px;
+    left: 66px;
+    display: inline-block;
+    z-index: 30;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+#txtsell1{
+    color: rgb(0, 0, 0) !important;
+}
+
+#txtsell1:hover{
+    color: #db9e24;
+}
+
+#txtsell2{
+    color: rgb(0, 0, 0) !important;
+    position: relative;
+    left: 226px;
+    bottom: 100px;
+}
+
+#txtsell2:hover{
+    color: #db9e24;
+}
+
+
+#txtsell3{
+    color: rgb(0, 0, 0) !important;
+    position: relative;
+    top: -186px;
+    left: 430px;
+}
+
+#txtsell3:hover{
+    color: #db9e24;
+    cursor: pointer;
+}
+
+#product13, #product14, #product15:hover{
+    cursor: pointer;
+}
+
+.sale{
+    position: absolute;
+    top: 126px;
+    left: 20px;
+}
+
+#sale1{
+    color: rgb(186, 0, 0) !important;
+    position: relative;
+    top: 0px;
+    left: 48px;
+}
+
+#sale2{
+    color: rgb(186, 0, 0) !important;
+    position: relative;
+    top: -33px;
+    left: 291px;
+}
+
+#sale3{
+    color: rgb(186, 0, 0) !important;
+    position: relative;
+    top: -69px;
+    left: 498px;
+}
+
+#sale4{
+    color: black !important;
+    font-size: 1.2em;
+    position: relative;
+    top: -7px;
+    left: 96px;
+}
+
+#sale5{
+    color: black !important;
+    font-size: 1.2em;
+    position: relative;
+    top: -45px;
+    left: 333px;
+}
+
+#sale6{
+    color: black !important;
+    font-size: 1.2em;
+    position: relative;
+    top: -86px;
+    left: 542px;
+}
+
+.top{
+    position: relative;
+    top: 106px;
+    left: -708px;
+    background-color: rgb(62, 76, 93);
+    color: white;
+    padding: 28px 0px 0px 0px;
+    margin: 0px -765px 0px 0px;
+    text-decoration: none;
+}
+
+.top a{
+    margin: 0px 0px 0px 678px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -13px;
+    font-size: 0.7em;
+}
+
+.footer{
+    position: relative;
+    top: 106px;
+    left: -673px;
+    padding: 392px 0px 104px 0px;
+    margin: 0px -730px 0px -35px;
+    background-color: #232F3E;
+}
+
+.info1{
+    position: absolute;
+    top: 20px;
+    left: 134px;
+}
+
+.info1 li{
+    display: block;
+    color: white;
+}
+
+.info1 li a{
+    color: white;
+    text-decoration: none;
+}
+
+.info2{
+    position: absolute;
+    top: 23px;
+    left: 450px;
+}
+
+.info2 li{
+    display: block;
+    color: white;
+}
+
+.info2 li a{
+    color: white;
+    text-decoration: none;
+}
+
+.info3{
+    position: absolute;
+    top: 23px;
+    left: 749px;
+}
+
+.info3 li{
+    display: block;
+    color: white;
+}
+
+.info3 li a{
+    color: white;
+    text-decoration: none;
+}
+
+.info4{
+    position: absolute;
+    top: 23px;
+    left: 1078px;
+}
+
+.info4 li{
+    display: block;
+    color: white;
+}
+
+.info4 li a{
+    color: white;
+    text-decoration: none;
+}
+
+#logofoot{
+    position: absolute;
+    height: 73px;
+    width: 165px;
+    top: 437px;
+    left: 555px;
+}
+
+.footcont{
+    float: right;
+    position: absolute;
+    top: 439px;
+    right: 585px;
+    padding: 14px 0px 9px 9px;
+    border: 1px solid rgb(125, 124, 124);
+    border-radius: 4px;
+}
+
+#langfoot{
+    height: 20px;
+    width: 35px;
+}
+
+#langfootsel{
+    color: white;
+    background-color: #232F3E;
+    border: none;
+    position: relative;
+    bottom: 4px;
+    right: 3px;
+}
+
+#langfootsel:hover{
+    cursor: pointer;
+}
+
+.tab{
+    padding: 140px 724px 166px 723px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    top: 826px;
+    left: -708px;
+    background-color: #131921;
+}
+
+.space{
+    padding: 51px 9px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    top: -1314px;
+    left: -708px;
+    background-color: #232F3E;
+}
+
+#tab1{
+    position: absolute;
+    top: 2281px;
+    left: 233px;
+    color: rgb(192, 192, 192);
+    font-size: 0.8em;
+}
+
+#tab1 thead tr th, #tab1 tbody tr td{
+    padding: 0px 144px 0px 0px;
+}
+
+#tab1 thead tr th:hover, #tab1 tbody tr td:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#tab2{
+    position: absolute;
+    top: 2361px;
+    left: 232px;
+    color: rgb(192, 192, 192);
+    font-size: 0.8em;
+}
+
+#tab2 thead tr th, #tab2 tbody tr td{
+    padding: 0px 168px 0px 0px;
+}
+
+#tab2 thead tr th:hover, #tab2 tbody tr td:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.newtab{
+    position: absolute;
+    top: 2360px;
+    left: 953px;
+}
+
+#tab3{
+    color: rgb(192, 192, 192);
+    font-size: 0.8em;
+}
+
+#tab3 thead tr th, #tab3 tbody tr td{
+    padding: 0px 168px 0px 0px;
+}
+
+#tab3 thead tr th:hover, #tab3 tbody tr td:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lastfoot{
+    position: absolute;
+    top: 2452px;
+    left: 502px;
+    color: rgb(192, 192, 192);
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.lastfoot a{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+}
+
+.lastfoot a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    color: rgb(192, 192, 192) !important;
+}
